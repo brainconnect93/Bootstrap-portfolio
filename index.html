@@ -143,7 +143,7 @@
         </div>
     </section>
   
-    <section class="d-flex flex-column justify-content-center aligns-items-center px-5" aria-label="Contact-section">
+    <section class="d-flex flex-column justify-content-center aligns-items-center p-5" aria-label="Contact-section">
         <h2 class="contact-form-title">Get In Touch</h2>
         <div class="d-flex flex-row ">
             <div class="form-text">
@@ -153,16 +153,25 @@
             </p>
 
             </div>
-            <div class="form-inputs d-flex flex-column  p-5">
-            <div class="form-input-names">
-                <input name="name" type="text" placeholder="First name" maxlength="30" required>
-                <input name="name" type="text" placeholder="Last name" maxlength="30" required>
-
-            </div>
-            <input name="email" type="email" placeholder="Email address" maxlength="30" required>
-            <textarea name="message" id="messageID" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea>
-            <button type="submit" class="getintouchbtn">Get in touch</button>
-            </div>
+            <form class="row g-3 mx-auto">
+                <div class="col-md-6">
+                  <input type="name" class="form-control" id="inputName" placeholder="first Name">
+                </div>
+                <div class="col-md-6">
+                  <input type="name" class="form-control" id="inputName" placeholder="last Name">
+                </div>
+                <div class="col-12">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="example: you@gmail.com">
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">type something</label>
+                  </div>
+                
+                <div class="col-12">
+                  <button type="submit" class="btn btn-success">Sign in</button>
+                </div>
+              </form>
         </div>
       </section>
 

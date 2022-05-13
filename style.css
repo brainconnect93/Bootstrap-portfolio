@@ -1,0 +1,33 @@
+.nav li a {
+    color: #344563;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#content {
+    text-align: center;
+    padding-top: 15%;
+    width: 54%;
+    margin-left: 23%;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.row {
+    justify-content: center;
+    width: 100%;
+}
+
+img {
+    height: 300px;
+}
+
+.form-text h2 {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
